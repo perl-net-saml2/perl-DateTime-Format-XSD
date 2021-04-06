@@ -1,18 +1,19 @@
-{   package DateTime::Format::XSD;
+package DateTime::Format::XSD;
+# ABSTRACT: Format DateTime according to xsd:dateTime
 
-    use strict;
-    use warnings;
-    use base qw(DateTime::Format::ISO8601);
-    our $VERSION = '0.2';
+use strict;
+use warnings;
+use base qw(DateTime::Format::ISO8601);
+our $VERSION = '0.2';
 
-    sub format_datetime {
-        my ($format, $date) = @_;
-        my $out = $date->strftime('%FT%T%z');
-        $out =~ s/(\d\d)$/:$1/;
-        return $out;
-    }
+sub format_datetime {
+    my ($format, $date) = @_;
+    my $out = $date->strftime('%FT%T%z');
+    $out =~ s/(\d\d)$/:$1/;
+    return $out;
 };
 1;
+__END__
 
 =head1 SYNOPSIS
 
