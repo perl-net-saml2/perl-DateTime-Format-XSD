@@ -4,7 +4,7 @@ package DateTime::Format::XSD;
 use strict;
 use warnings;
 use base qw(DateTime::Format::ISO8601);
-our $VERSION = '0.2';
+our $VERSION = '0.3';
 
 sub format_datetime {
     my ($format, $date) = @_;
