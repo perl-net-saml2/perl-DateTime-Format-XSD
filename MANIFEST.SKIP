@@ -1,0 +1,7 @@
+.git*
+DateTime-Format-XSD*
+MANIFEST.SKIP
+MANIFEST.bak
+^*~$
+^Makefile$
+MYMETA.*

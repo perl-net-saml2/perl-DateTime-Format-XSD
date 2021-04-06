@@ -14,10 +14,6 @@
 };
 1;
 
-=head1 NAME
-
-DateTime::Format::XSD - Format DateTime according to xsd:dateTime
-
 =head1 SYNOPSIS
 
   my $str = DateTime::Format::XSD->format_datetime($dt);
@@ -38,14 +34,14 @@ in this exact spec.
 
 L<DateTime>, L<DateTime::Format::ISO8601>, The XML Schema speficitation.
 
-=head1 AUTHORS
-
-Daniel Ruoso C<daniel@ruoso.com>
-
 =head1 BUG REPORTS
 
 Please submit all bugs regarding C<DateTime::Format::XSD> to
 C<bug-datetime-format-xsd@rt.cpan.org>
+
+=head1 COPYRIGHT
+
+    This software is copyright (c) 2004 by Daniel Ruoso.
 
 =head1 LICENSE
 
