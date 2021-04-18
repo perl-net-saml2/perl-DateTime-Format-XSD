@@ -1,5 +1,11 @@
 Revision history for DateTime-Format-XSD
 
+0.4 - 2021-04-18
+
+  [Release Official Version]
+
+  - TBD     Update Changes and Increment version
+
 0.3 - 2021-04-06
 
   [New Maintainer TIMLEGGE]
@@ -7,7 +13,7 @@ Revision history for DateTime-Format-XSD
   Thanks to Daniel Ruoso for transfering maintaineship to TIMLEGGE.  This
   release just repackages the module and dumps the version.
 
-  - TBD     Update Changes and Increment version
+  - 5c77d35 Update Changes and Increment version
   - 97198c5 Remove braces to silence perl critic
   - f68bd32 Update packaging to Dist::Zilla
   - cbf2667 Initial import DateTime::Format::XSD version 0.2
